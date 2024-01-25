@@ -23,6 +23,21 @@ export default function Home() {
             Online, on Devtranet &gt;&gt;
           </h1>
         </div>
+        <div className="flex flex-col items-center justify-between gap-2">
+          <h1 className="text-xl text-[#5F6FEE]">CO-HOSTED BY</h1>
+          <div className="flex flex-row items-center justify-between gap-5">
+            <img
+              src="/devtranet.png"
+              alt="devtranet"
+              className="h-10 object-contain"
+            />
+            <img
+              src="/woc.png"
+              alt="devtranet"
+              className="h-10 object-contain"
+            />
+          </div>
+        </div>
         <div className="flex flex-col md:flex-row gap-4">
           <button className="w-52 bg-white rounded-md py-4 font-semibold hover:opacity-90 transition-opacity">
             Get your username @
