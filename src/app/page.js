@@ -24,17 +24,19 @@ export default function Home() {
           </h1>
         </div>
         <div className="flex flex-col items-center justify-between gap-2">
-          <h1 className="text-xl text-[#5F6FEE] font-semibold">CO-HOSTED BY</h1>
+          <h1 className="text-lg md:text-xl text-[#5F6FEE] font-semibold">
+            CO-HOSTED BY
+          </h1>
           <div className="flex flex-row items-center justify-between gap-5">
             <img
               src="/devtranet.png"
               alt="devtranet"
-              className="h-10 object-contain"
+              className="h-8 md:h-10 object-contain"
             />
             <img
               src="/woc.png"
               alt="devtranet"
-              className="h-10 object-contain"
+              className="h-8 md:h-10 object-contain"
             />
           </div>
         </div>
