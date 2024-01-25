@@ -24,7 +24,7 @@ export default function Home() {
           </h1>
         </div>
         <div className="flex flex-col items-center justify-between gap-2">
-          <h1 className="text-xl text-[#5F6FEE]">CO-HOSTED BY</h1>
+          <h1 className="text-xl text-[#5F6FEE] font-semibold">CO-HOSTED BY</h1>
           <div className="flex flex-row items-center justify-between gap-5">
             <img
               src="/devtranet.png"
