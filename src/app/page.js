@@ -31,20 +31,20 @@ export default function Home() {
             <img
               src="/devtranet.png"
               alt="devtranet"
-              className="h-7 md:h-10 object-contain"
+              className="h-6 md:h-10 object-contain"
             />
             <img
               src="/woc.png"
               alt="devtranet"
-              className="h-7 md:h-10 object-contain"
+              className="h-6 md:h-10 object-contain"
             />
           </div>
         </div>
         <div className="flex flex-col md:flex-row gap-4">
-          <button className="w-60 md:w-52 bg-white rounded-md py-4 font-semibold hover:opacity-90 transition-opacity">
+          <button className="w-64 md:w-56 bg-white rounded-md py-4 font-semibold hover:opacity-90 transition-opacity">
             Get your username @
           </button>
-          <button className="w-60 md:w-52 border-2 border-white bg-black rounded-md py-4 font-semibold text-white hover:opacity-90 transition-opacity">
+          <button className="w-64 md:w-56 border-2 border-white bg-black rounded-md py-4 font-semibold text-white hover:opacity-90 transition-opacity">
             Join the Discord
           </button>
         </div>
