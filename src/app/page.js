@@ -24,27 +24,27 @@ export default function Home() {
           </h1>
         </div>
         <div className="flex flex-col items-center justify-between gap-2">
-          <h1 className="text-lg md:text-xl text-[#5F6FEE] font-semibold">
+          <h1 className="text-sm md:text-xl text-[#5F6FEE] font-semibold">
             CO-HOSTED BY
           </h1>
           <div className="flex flex-row items-center justify-between gap-5">
             <img
               src="/devtranet.png"
               alt="devtranet"
-              className="h-8 md:h-10 object-contain"
+              className="h-7 md:h-10 object-contain"
             />
             <img
               src="/woc.png"
               alt="devtranet"
-              className="h-8 md:h-10 object-contain"
+              className="h-7 md:h-10 object-contain"
             />
           </div>
         </div>
         <div className="flex flex-col md:flex-row gap-4">
-          <button className="w-52 bg-white rounded-md py-4 font-semibold hover:opacity-90 transition-opacity">
+          <button className="w-60 md:w-52 bg-white rounded-md py-4 font-semibold hover:opacity-90 transition-opacity">
             Get your username @
           </button>
-          <button className="w-52 border-2 border-white bg-black rounded-md py-4 font-semibold text-white hover:opacity-90 transition-opacity">
+          <button className="w-60 md:w-52 border-2 border-white bg-black rounded-md py-4 font-semibold text-white hover:opacity-90 transition-opacity">
             Join the Discord
           </button>
         </div>
