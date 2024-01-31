@@ -10,14 +10,14 @@ export default function Home() {
       <main className="relative z-10 h-full w-full flex flex-col gap-7 md:gap-12 items-center justify-center">
         <div className="h-20 w-full px-10 md:px-20">
           <img
-            src="/full-logo.png"
+            src="/hackthewinter-logo.svg"
             alt="logo"
             className="object-contain h-full w-full"
           />
         </div>
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-white text-xl md:text-2xl font-light">
-            February 3-10
+            February 17-24.
           </h1>
           <h1 className="text-[#04C604] text-xl mdtext-2xl font-light">
             Online, on Devtranet &gt;&gt;
@@ -28,16 +28,20 @@ export default function Home() {
             CO-HOSTED BY
           </h1>
           <div className="flex flex-row items-center justify-between gap-5">
-            <img
-              src="/devtranet.png"
+            <a href="https://devtranet.tech" target="_blank">
+            <img 
+            src="/devtranet-logo.svg" 
+            alt="devtranet" 
+            className="h-6 md:h-10 object-contain"/>
+            </a>
+
+            <a href="https://discord.gg/program" target="_blank">
+              <img
+              src="/woc-logo.svg"
               alt="devtranet"
               className="h-6 md:h-10 object-contain"
             />
-            <img
-              src="/woc.png"
-              alt="devtranet"
-              className="h-6 md:h-10 object-contain"
-            />
+            </a>
           </div>
         </div>
         <div className="flex flex-col md:flex-row gap-4">
@@ -62,7 +66,7 @@ export default function Home() {
             Get updates <ArrowUpRight size="24px" />
           </Link>
           <Link
-            href="/"
+            href="https://twitter.com/DevtranetHQ"
             className="w-52 text-white relative font-semibold flex flex-row items-center justify-center gap-2"
           >
             Follow us on Twitter <ArrowUpRight size="24px" />
