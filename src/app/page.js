@@ -54,13 +54,13 @@ export default function Home() {
         </div>
         <div className="w-full flex flex-col md:flex-row items-center justify-evenly py-5 gap-5">
           <Link
-            href="/"
+            href="https://devtranet.tech/blogs/announcing-our-winter-hackathon"
             className="w-52 text-white font-semibold flex flex-row items-center justify-center gap-2"
           >
             README.md <ArrowUpRight size="24px" />
           </Link>
           <Link
-            href="/"
+            href="https://bit.ly/3SkArtQ"
             className="w-52 text-white font-semibold flex flex-row items-center justify-center gap-2"
           >
             Get updates <ArrowUpRight size="24px" />
